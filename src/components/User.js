@@ -4,9 +4,9 @@ import UserService from "../services/UserService";
 const User = (props) => {
   const initialUserState = {
     id: null,
+    name: "",
     country: "",
     email: "",
-    name: "",
   };
   const [currentUser, setCurrentUser] = useState(initialUserState);
   const [message, setMessage] = useState("");
