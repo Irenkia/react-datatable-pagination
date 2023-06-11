@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'react-datatable-pagination'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_77FECC7963A344FCB041D6A48B3C78F4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_721DE51AA63D4E78B60422E143EC4631 }}
           package: .
