@@ -11,7 +11,7 @@ import UsersList from "./components/UsersList";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <nav className="navbar navbar-expand navbar-light bg-light">
         <a href="/users" className="navbar-brand">
           My App
